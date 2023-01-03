@@ -3,7 +3,7 @@
   <head>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body style="background-color:#66d7d1;">
+  <body style="background-color:#fdc5c9">
     <main class="home">
       <form action="" method="post">
       <label for="nombre">Ingrese su  nombre</label>
@@ -14,11 +14,9 @@
       <div>
         <label for="colors">Seleccione un color:</label>
         <select name="colors" id="colors">
-        <option value="#ff637D">Rosa</option>
-        <option value="#f4f1bb">Amarillo claro</option>
-        <option value="#66d7d1">Cian</option>
-        <option value="#eaf2e3">Gris</option>
-        <option value="#fff87">Amarillo</option>
+        <option value="#c92c2c">Rojo</option>
+        <option value="#607848">Verde oscuro</option>
+        <option value="#fdc5c9">Rosa claro</option>
         </select>
         <% if (locals.errors && errors.colors) { %>
             <small><%= errors.colors.msg %></small>

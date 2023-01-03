@@ -1,18 +1,26 @@
 [
     {
         "id": 1,
-        "name": "melanie",
-        "email": "lezcano@mail.com",
-        "edad": 25,
-        "pass": "123456",
-        "colors": "#ff637D"
+        "name": "jose",
+        "email": "joshe@mail.com",
+        "edad": 20,
+        "pass": "1234562",
+        "colors": "#c92c2c"
     },
     {
         "id": 2,
-        "name": "melanie",
-        "email": "melanie.s.lezcano@gmail.com",
-        "edad": "25",
-        "pass": "$2a$10$tIfp8nwhUeHofNL40K3oBuLX..cH2rlbXqxZKHaHcTKIunGehS8kW",
-        "colors": "#ff637D"
+        "name": "joel",
+        "email": "joel27@gmail.com",
+        "edad": "29",
+        "pass": "$2a$10$PSRYmHv4J9BLqPX58W9eqO11r0lqprj.sdJ.oUy3IVsiG1Q0SyOvS",
+        "colors": "#607848"
+    },
+    {
+        "id": 3,
+        "name": "roberto",
+        "email": "robert22@gmail.com",
+        "edad": "29",
+        "pass": "$2a$10$yvXNTHefTt9GcX99x.vBD..4yYFcq62c7HZbFa.cI34Z7WiyhKfS.",
+        "colors": "#fdc5c9"
     }
 ]

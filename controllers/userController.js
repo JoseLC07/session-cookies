@@ -14,13 +14,13 @@ module.exports = {
         })
     },
     register: (req, res) => {
-        let colores = ["Rosa", "Amarillo claro", "Cian", "Gris", "Amarillo"];
+        let colores = ["Rojo", "Verde oscuro", "Rosa claro"];
         res.render('register',{colores, texto: 'Completar'});
     },
     processRegister:  (req, res) => {
 /*         return res.send(req.body) */
         const {name, email, edad, pass, colors} = req.body
-        let colores = ["Rosa", "Amarillo claro", "Cian", "Gris", "Amarillo"];
+        let colores = ["Rojo", "Verde oscuro", "Rosa claro"];
         let errors = validationResult(req);
         
         
@@ -48,7 +48,7 @@ module.exports = {
 
 
     login: (req, res) => {
-        let colores = ["Rosa", "Amarillo claro", "Cian", "Gris", "Amarillo"];
+        let colores = ["Rojo", "Verde oscuro", "Rosa claro"];
         res.render('login',{colores});
     },
 
